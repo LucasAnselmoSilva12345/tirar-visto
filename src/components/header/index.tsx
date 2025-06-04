@@ -4,37 +4,54 @@ import Logo from '../../assets/images/logo.png';
 import HeroSectionImagem from '../../assets/images/hero-section.png';
 import ThumbVideo from '../../assets/images/thumb-video-hero.png';
 import { Notification } from '../notification';
+import { ArrowRight } from '../../assets/svg/arrow-right';
 
 export function Header() {
   return (
-    <header>
-      <div className="hidden">
-        <div>
+    <header className="grid grid-cols-1 lg:pt-8 lg:grid-cols-2 lg:gap-16">
+      <div className="hidden lg:block">
+        <div className="flex items-center gap-2 pb-8">
+          <img src={Logo} alt="" />
           <Navigation />
         </div>
 
-        <h1>Tire seu Visto conosco e não tenha nenhuma surpresa negativa!</h1>
+        <div className="pt-10">
+          <h1 className="text-6xl font-medium text-black-dark">
+            Tire seu Visto conosco e não tenha nenhuma surpresa negativa!
+          </h1>
+          <hr className="mt-8 text-white-medium" />
 
-        <hr />
-
-        <div>
-          <div>
-            <p>
-              Com uma equipe altamente treinada, nós temos todos os
-              procedimentos para que seu processo seja o mais tranquilo e
-              rápido. Uma consultoria completa para você e sua família não ter
-              nenhuma preocupação na sua viagem.
-            </p>
-            <a href="">Saiba mais</a>
-          </div>
-          <div>
-            <img src={ThumbVideo} alt="" />
-            <div>
-              <div>
-                <span>Conheça a Bruna</span>
-                <span>Ver Video</span>
+          <div className="mt-[60px] grid grid-cols-[327px_1fr] items-end gap-5">
+            <div className="flex flex-col gap-10">
+              <p className="text-base font-normal text-gray-dark">
+                Com uma equipe altamente treinada, nós temos todos os
+                procedimentos para que seu processo seja o mais tranquilo e
+                rápido. Uma consultoria completa para você e sua família não ter
+                nenhuma preocupação na sua viagem.
+              </p>
+              <a
+                href=""
+                className="py-2.5 px-5 max-w-[160px] flex items-center gap-3 bg-blue-dark text-white text-base font-semibold rounded-full"
+              >
+                Saiba mais
+                <ArrowRight />
+              </a>
+            </div>
+            <div className="flex flex-col gap-4">
+              <img src={ThumbVideo} alt="" className="rounded-2xl " />
+              <div className="flex items-end justify-between">
+                <div className="flex flex-col">
+                  <span className="text-base text-black-dark font-semibold">
+                    Conheça a Bruna
+                  </span>
+                  <span className="text-xs font-normal text-gray-dark">
+                    Ver Video
+                  </span>
+                </div>
+                <span className="bg-blue-dark p-1.5 rounded-full">
+                  <ArrowRight />
+                </span>
               </div>
-              <span>Icone</span>
             </div>
           </div>
         </div>
@@ -42,7 +59,11 @@ export function Header() {
         <div>componente de numero</div>
       </div>
       <aside className="relative">
-        <img src={HeroSectionImagem} alt="Tira visto" />
+        <img
+          src={HeroSectionImagem}
+          alt="Tira visto"
+          className="lg:rounded-3xl"
+        />
         <div className=" absolute top-0 right-0 w-full p-4 flex items-center justify-between">
           <img src={Logo} alt="" className="lg:hidden" />
           <Notification text="Tirar meu visto agora!" />

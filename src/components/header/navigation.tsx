@@ -1,18 +1,38 @@
 export function Navigation() {
   return (
     <nav>
-      <ul>
+      <ul className="flex items-center gap-2">
         <li>
-          <a href="">Home</a>
+          <a
+            href=""
+            className="py-2.5 px-3 text-base font-normal text-black-dark"
+          >
+            Home
+          </a>
         </li>
         <li>
-          <a href="">Quem Somos</a>
+          <a
+            href=""
+            className="py-2.5 px-3 text-base font-normal text-black-dark"
+          >
+            Quem Somos
+          </a>
         </li>
         <li>
-          <a href="">Serviços</a>
+          <a
+            href=""
+            className="py-2.5 px-3 text-base font-normal text-black-dark"
+          >
+            Serviços
+          </a>
         </li>
         <li>
-          <a href="">Contato</a>
+          <a
+            href=""
+            className="py-2.5 px-3 text-base font-normal text-black-dark"
+          >
+            Contato
+          </a>
         </li>
       </ul>
     </nav>
