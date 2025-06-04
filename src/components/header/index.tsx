@@ -3,6 +3,7 @@ import { Navigation } from './navigation';
 import Logo from '../../assets/images/logo.png';
 import HeroSectionImagem from '../../assets/images/hero-section.png';
 import ThumbVideo from '../../assets/images/thumb-video-hero.png';
+import { Notification } from '../notification';
 
 export function Header() {
   return (
@@ -44,9 +45,9 @@ export function Header() {
         <img src={HeroSectionImagem} alt="Tira visto" />
         <div className=" absolute top-0 right-0 w-full p-4 flex items-center justify-between">
           <img src={Logo} alt="" className="lg:hidden" />
-          <span>Tirar meu visto agora!</span>
+          <Notification text="Tirar meu visto agora!" />
         </div>
-        <div className="absolute bottom-0 left-0 p-5 space-y-4">
+        <div className="absolute bottom-0 left-0 px-4 pb-6 space-y-4">
           <h2 className="text-5xl font-semibold text-white">
             Realize o seu sonho com a ajuda da Tirar Visto!
           </h2>
