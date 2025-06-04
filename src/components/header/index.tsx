@@ -10,19 +10,19 @@ import { Stats } from './stats';
 export function Header() {
   return (
     <header className="grid grid-cols-1 lg:pt-8 lg:grid-cols-2 lg:gap-16">
-      <div className="hidden lg:block">
-        <div className="flex items-center gap-2 pb-8">
+      <div className="hidden lg:flex lg:flex-col lg:justify-between">
+        <div className="flex items-center gap-2">
           <img src={Logo} alt="" />
           <Navigation />
         </div>
-
-        <div className="pt-10">
+        <div className="">
           <h1 className="text-6xl font-medium text-black-dark">
             Tire seu Visto conosco e não tenha nenhuma surpresa negativa!
           </h1>
-          <hr className="mt-8 text-white-medium" />
 
-          <div className="mt-[60px] grid grid-cols-[327px_1fr] items-end gap-5">
+          <hr className="my-8 text-white-medium" />
+
+          <div className="grid grid-cols-[327px_1fr] items-end gap-5">
             <div className="flex flex-col gap-10">
               <p className="text-base font-normal text-gray-dark">
                 Com uma equipe altamente treinada, nós temos todos os
@@ -56,7 +56,6 @@ export function Header() {
             </div>
           </div>
         </div>
-
         <Stats />
       </div>
       <aside className="relative">

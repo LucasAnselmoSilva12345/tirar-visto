@@ -13,7 +13,7 @@ export function Stats() {
   return (
     <div className="flex flex-row divide-y sm:divide-y-0 sm:divide-x divide-white-medium">
       {stats.map((stat, index) => (
-        <div key={index} className="flex-1 px-7 py-4">
+        <div key={index} className="flex-1 px-7 py-0">
           <div className="text-[2.75rem] font-medium text-black-dark">
             {stat.value}
           </div>
