@@ -4,10 +4,11 @@
 @theme {
   --font-inter: 'Inter', sans-serif;
 
-  --color--black-dark: #232323;
-  --color-black-medium: '#282828';
+  --color-black-dark: #232323;
+  --color-black-medium: #282828;
   --color-gray-dark: #8d8d8d;
-  --color-white-light: #e5e5e5;
+  --color-white-medium: #e5e5e5;
+  --color-white-light: #e5e3e3;
   --color-blue-dark: #1b2543;
   --color-yellow-dark: #f6c010;
 }
