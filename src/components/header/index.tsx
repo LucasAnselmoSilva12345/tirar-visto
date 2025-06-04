@@ -64,7 +64,7 @@ export function Header() {
           alt="Tira visto"
           className="lg:rounded-3xl"
         />
-        <div className=" absolute top-0 right-0 w-full p-4 flex items-center justify-between">
+        <div className=" absolute top-0 right-0 w-full p-4 flex items-center justify-between lg:justify-end">
           <img src={Logo} alt="" className="lg:hidden" />
           <Notification text="Tirar meu visto agora!" />
         </div>
