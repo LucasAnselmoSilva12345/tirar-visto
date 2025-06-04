@@ -5,6 +5,7 @@ import HeroSectionImagem from '../../assets/images/hero-section.png';
 import ThumbVideo from '../../assets/images/thumb-video-hero.png';
 import { Notification } from '../notification';
 import { ArrowRight } from '../../assets/svg/arrow-right';
+import { Stats } from './stats';
 
 export function Header() {
   return (
@@ -56,7 +57,7 @@ export function Header() {
           </div>
         </div>
 
-        <div>componente de numero</div>
+        <Stats />
       </div>
       <aside className="relative">
         <img
