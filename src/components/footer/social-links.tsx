@@ -2,7 +2,7 @@ import { Section } from '../Section';
 
 export function SocialLinks() {
   return (
-    <Section className="pb-[70px] grid grid-cols-1 lg:grid-cols-2 lg:items-end">
+    <Section className="pb-[70px] space-y-5 lg:space-y-0 grid grid-cols-1 lg:grid-cols-2 lg:items-end">
       <div className="flex flex-col gap-5">
         <p className="font-semibold text-base text-black-dark">
           Siga em nossa redes:
