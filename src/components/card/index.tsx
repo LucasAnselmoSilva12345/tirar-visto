@@ -55,7 +55,7 @@ const cardInformations: CardInformation[] = [
 
 export function Card() {
   return (
-    <Section className="space-y-5 lg:space-y-0 lg:flex lg:flex-col lg:gap-[60px]">
+    <Section className="space-y-5 py-10 lg:py-[95px] lg:space-y-0 lg:flex lg:flex-col lg:gap-[60px]">
       <Header />
       <div className="grid grid-cols-1 gap-6 lg:grid-cols-3">
         {cardInformations.map((cardInformation, index) => (

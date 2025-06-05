@@ -9,7 +9,7 @@ import { Stats } from './stats';
 
 export function Header() {
   return (
-    <header className="grid grid-cols-1 lg:pt-8 lg:grid-cols-2 lg:gap-16">
+    <header className="grid mb-5 grid-cols-1 lg:pt-8 lg:grid-cols-2 lg:gap-16">
       <div className="hidden lg:flex lg:flex-col lg:justify-between">
         <div className="flex items-center gap-2">
           <img src={Logo} alt="" />
@@ -31,7 +31,7 @@ export function Header() {
                 nenhuma preocupação na sua viagem.
               </p>
               <a
-                href=""
+                href="https://tirarvisto.com.br"
                 className="py-2.5 px-5 max-w-[160px] flex items-center gap-3 bg-blue-dark text-white text-base font-semibold rounded-full"
               >
                 Saiba mais

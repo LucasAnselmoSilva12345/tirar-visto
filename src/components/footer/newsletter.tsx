@@ -13,7 +13,7 @@ export function Newsletter() {
           botão abaixo
         </p>
         <a
-          href=""
+          href="https://tirarvisto.com.br"
           className="block mt-7 px-5 py-2.5 bg-blue-dark text-white text-center rounded-full text-base font-semibold lg:max-w-[225px]"
         >
           Central de Atendimento
@@ -21,7 +21,7 @@ export function Newsletter() {
       </div>
       <div>
         <a
-          href=""
+          href="https://tirarvisto.com.br"
           className="flex items-center justify-between lg:justify-normal text-2xl lg:text-4xl lg:gap-10 underline"
         >
           Recebe novidades

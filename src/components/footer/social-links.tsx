@@ -11,7 +11,7 @@ export function SocialLinks() {
           <ul className="grid grid-cols-2 gap-5 lg:flex lg:items-center">
             <li>
               <a
-                href=""
+                href="https://tirarvisto.com.br"
                 className="text-sm lg:text-base text-black-dark font-semibold px-5 py-2 border border-black-dark rounded-full"
               >
                 Instagram
@@ -19,7 +19,7 @@ export function SocialLinks() {
             </li>
             <li>
               <a
-                href=""
+                href="https://tirarvisto.com.br"
                 className="text-sm lg:text-base text-black-dark font-semibold px-5 py-2 border border-black-dark rounded-full"
               >
                 X
@@ -27,7 +27,7 @@ export function SocialLinks() {
             </li>
             <li>
               <a
-                href=""
+                href="https://tirarvisto.com.br"
                 className="text-sm lg:text-base text-black-dark font-semibold px-5 py-2 border border-black-dark rounded-full"
               >
                 Facebook
@@ -35,7 +35,7 @@ export function SocialLinks() {
             </li>
             <li>
               <a
-                href=""
+                href="https://tirarvisto.com.br"
                 className="text-sm lg:text-base text-black-dark font-semibold px-5 py-2 border border-black-dark rounded-full"
               >
                 Youtube

@@ -4,15 +4,15 @@ export function Navigation() {
       <ul className="flex items-center gap-2">
         <li>
           <a
-            href=""
-            className="py-2.5 px-3 text-base font-normal text-black-dark"
+            href="https://tirarvisto.com.br"
+            className="py-2.5 px-3 text-base font-semibold text-black-dark"
           >
             Home
           </a>
         </li>
         <li>
           <a
-            href=""
+            href="https://tirarvisto.com.br"
             className="py-2.5 px-3 text-base font-normal text-black-dark"
           >
             Quem Somos
@@ -20,7 +20,7 @@ export function Navigation() {
         </li>
         <li>
           <a
-            href=""
+            href="https://tirarvisto.com.br"
             className="py-2.5 px-3 text-base font-normal text-black-dark"
           >
             Serviços
@@ -28,7 +28,7 @@ export function Navigation() {
         </li>
         <li>
           <a
-            href=""
+            href="https://tirarvisto.com.br"
             className="py-2.5 px-3 text-base font-normal text-black-dark"
           >
             Contato

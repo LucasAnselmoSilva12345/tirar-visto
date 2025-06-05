@@ -9,12 +9,12 @@ export function App() {
   return (
     <>
       <Header />
-      <div className="bg-white-dark">
+      <main>
         <Announcement />
-      </div>
-      <Step />
-      <Destinations />
-      <Card />
+        <Step />
+        <Destinations />
+        <Card />
+      </main>
       <Footer />
     </>
   );

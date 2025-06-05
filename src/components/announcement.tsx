@@ -4,7 +4,7 @@ import { Section } from './Section';
 
 export function Announcement() {
   return (
-    <Section className="space-y-2 py-10 lg:pt-[70px] lg:pb-10">
+    <Section className="space-y-2 lg:pt-[70px] lg:pb-10 bg-white-dark">
       <div className="flex items-center lg:items-start lg:gap-28">
         <h2 className="text-base leading-[130.8%] max-w-[300px] font-medium text-black-dark lg:text-5xl uppercase lg:max-w-[854px]">
           Consultoria completa para tirar seu visto

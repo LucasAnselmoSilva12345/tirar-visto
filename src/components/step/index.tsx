@@ -28,7 +28,7 @@ export function Step() {
   };
 
   return (
-    <Section className="space-y-5 lg:space-y-0 lg:flex lg:flex-col lg:gap-20">
+    <Section className="space-y-5 py-10 lg:py-[95px] lg:space-y-0 lg:flex lg:flex-col lg:gap-20 ">
       <Header />
       <div className="flex flex-col md:flex-row items-center gap-6 lg:gap-9">
         <div className="w-full md:w-1/2">
